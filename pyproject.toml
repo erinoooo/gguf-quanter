@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gguf-quanter"
+version = "0.1.0"
+description = "Bulk-create GGUF quantizations of HuggingFace models via system llama.cpp."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "you" }]
+keywords = ["llama.cpp", "gguf", "quantization", "huggingface", "llm"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Environment :: Console",
+]
+dependencies = [
+    "huggingface_hub>=0.24",
+]
+
+[project.scripts]
+gguf-quant = "gguf_quanter.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["gguf_quanter*"]
