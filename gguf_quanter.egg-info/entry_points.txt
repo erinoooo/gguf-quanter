@@ -1,0 +1,2 @@
+[console_scripts]
+gguf-quant = gguf_quanter.cli:main

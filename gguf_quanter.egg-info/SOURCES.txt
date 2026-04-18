@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+gguf_quanter/__init__.py
+gguf_quanter/__main__.py
+gguf_quanter/cli.py
+gguf_quanter.egg-info/PKG-INFO
+gguf_quanter.egg-info/SOURCES.txt
+gguf_quanter.egg-info/dependency_links.txt
+gguf_quanter.egg-info/entry_points.txt
+gguf_quanter.egg-info/requires.txt
+gguf_quanter.egg-info/top_level.txt
